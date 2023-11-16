@@ -4,7 +4,6 @@
 
 layout: home
 ---
-
 <h1>YouTube ショート動画の URL を通常版に変換</h1>
 
 <script>
