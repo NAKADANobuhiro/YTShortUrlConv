@@ -1,3 +1,3 @@
 # YTShortUrlConv
 
-See https://nakadanobuhiro.github.io/YTShortUrlConv/
+See https://nakadanobuhiro.github.io/YTShortsUrlConv/
