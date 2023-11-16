@@ -12,7 +12,8 @@ function DoConvert()
 {
     let ytshorsturl = document.getElementById("ytshorsturl");
     let normalurl = ytshorsturl.value.match(/shorts\/([a-z0-9]+)/i);
-    normalurl = 'https://www.youtube.com/watch?v=' + normalurl[1];
+    //normalurl = 'https://www.youtube.com/watch?v=' + normalurl[1];
+    normalurl = 'https://youtu.be/' + normalurl[1];
     document.getElementById("ytnormalurl").value = normalurl;
 };
 
@@ -64,5 +65,5 @@ YouTube のショート動画は、音量調整ができない、細かな設定
 
 ## 仕組み
 
-仕組みは、YouTube ショート動画の URL から動画の ID を抜き出し、通常の URL で使用されている "https://www.youtube.com/watch?v=" と連結させています。
+仕組みは、YouTube ショート動画の URL から動画の ID を抜き出し、通常の URL で使用されている 'https://youtu.be/' と連結させています。
 単純な仕組みですので、本サイトを使用せずにテキストエディターでも修正できます。
