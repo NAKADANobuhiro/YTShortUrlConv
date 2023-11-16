@@ -51,8 +51,16 @@ function copyToClipboard (tagValue) {
 
 ## 使用方法
 
-YouTube のショート動画は、音量調整ができない、シークバーが表示されない、Note.com で埋め込むとインプレース再生されないなどの問題があります。
+YouTube のショート動画は、音量調整ができない、細かな設定ができない、Note.com で埋め込むとインプレース再生されないなどの問題があります。
 そこで、ショート動画の共有か、右クリック「動画のURLをコピー」で得た URL を入力すると通常の YouTube で再生される URL を得ることができます。
+
+## ショート動画の再生例
+
+<iframe width="315" height="560" src="https://www.youtube.com/embed/QcDWiB3J1zo" title="YouTubeショートのご紹介" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+## 通常版の再生例
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QcDWiB3J1zo?si=b14KCUy022_MsbXD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## 仕組み
 
