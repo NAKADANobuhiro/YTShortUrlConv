@@ -262,6 +262,7 @@ GEM
     unf_ext (0.0.9-x64-mingw-ucrt)
     unicode-display_width (1.8.0)
     wdm (0.1.1)
+    webrick (1.8.1)
 
 PLATFORMS
   x64-mingw-ucrt
@@ -271,9 +272,11 @@ DEPENDENCIES
   http_parser.rb (~> 0.6.0)
   jekyll-feed (~> 0.12)
   minima (~> 2.5)
+  public_suffix (= 4.0.7)
   tzinfo (>= 1, < 3)
   tzinfo-data
   wdm (~> 0.1.1)
+  webrick (~> 1.8)
 
 BUNDLED WITH
    2.4.22
