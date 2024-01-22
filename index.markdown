@@ -1,6 +1,7 @@
 ---
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+# local preview > bundle exec jekyll serve
 
 layout: home
 ---
@@ -10,7 +11,7 @@ layout: home
 function DoConvert()
 {
     let ytshorsturl = document.getElementById("ytshorsturl");
-    let normalurl = ytshorsturl.value.match(/shorts\/([a-z0-9]+)/i);
+    let normalurl = ytshorsturl.value.match(/shorts\/([a-z0-9-|_]+)/i);
     //normalurl = 'https://www.youtube.com/watch?v=' + normalurl[1];
     normalurl = 'https://youtu.be/' + normalurl[1];
     document.getElementById("ytnormalurl").value = normalurl;
